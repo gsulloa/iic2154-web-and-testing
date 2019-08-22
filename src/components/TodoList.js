@@ -8,7 +8,7 @@ const List = props => (
   </ol>
 );
 
-class TodoForm extends React.Component {
+export class TodoForm extends React.Component {
   state = {
     text: ""
   };

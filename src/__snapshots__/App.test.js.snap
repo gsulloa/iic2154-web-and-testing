@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <h1>
+    TodoList
+  </h1>
+  <form>
+    <label
+      for="text"
+    >
+      Ingresa un elemento
+    </label>
+    <input
+      id="text"
+      value=""
+    />
+  </form>
+  <ol />
+</div>
+`;
+
+exports[`todolist 1`] = `
+<div>
+  <h1>
+    TodoList
+  </h1>
+  <form>
+    <label
+      for="text"
+    >
+      Ingresa un elemento
+    </label>
+    <input
+      id="text"
+      value=""
+    />
+  </form>
+  <ol />
+</div>
+`;
+
+exports[`todolist 2`] = `
+<div>
+  <h1>
+    TodoList
+  </h1>
+  <form>
+    <label
+      for="text"
+    >
+      Ingresa un elemento
+    </label>
+    <input
+      id="text"
+      value="Texto nuevo"
+    />
+  </form>
+  <ol />
+</div>
+`;
+
+exports[`todolist 3`] = `
+<div>
+  <h1>
+    TodoList
+  </h1>
+  <form>
+    <label
+      for="text"
+    >
+      Ingresa un elemento
+    </label>
+    <input
+      id="text"
+      value=""
+    />
+  </form>
+  <ol>
+    <li>
+      Texto nuevo
+    </li>
+  </ol>
+</div>
+`;
